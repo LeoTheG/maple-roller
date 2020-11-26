@@ -1,0 +1,21 @@
+{
+  "name": "maple-roll-reader",
+  "version": "1.0.0",
+  "description": "automate rolling for stats in maplestory using OCR",
+  "main": "./src/index.js",
+  "bin": "./bin/bin.js",
+  "scripts": {
+    "start": "node bin/bin.js",
+    "compile": "nexe bin\\bin.js -o maple-roller.exe"
+  },
+  "keywords": [],
+  "author": "Leonar Gharib",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "image-clipper": "^0.4.4",
+    "node-tesseract": "^0.2.7",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.12.3"
+  }
+}
