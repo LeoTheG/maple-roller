@@ -31,3 +31,5 @@ psm command is now two dashed lines not 1, in tesseract.js change to
 ## compile
 
 compile a .exe using `npm run compile`
+
+![usage](https://i.imgur.com/DJ7cxsX.mp4)
